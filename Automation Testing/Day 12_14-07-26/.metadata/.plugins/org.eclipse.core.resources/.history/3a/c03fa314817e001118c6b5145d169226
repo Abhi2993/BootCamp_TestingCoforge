@@ -1,0 +1,32 @@
+package constuctors;
+
+public class C_02_Constructor{
+
+    // Constructor 1
+    public C_02_Constructor(int a, int b) {
+        int c = a + b;
+        System.out.println("Summation is: " + c);
+    }
+
+    // Constructor 2
+    public C_02_Constructor(double a, double b) {
+        double c = a + b;
+        System.out.println("Summation is: " + c);
+    }
+
+    // Method
+    public void display() {
+        System.out.println("Constructor overloading is working successfully");
+    }
+
+    public static void main(String[] args) {
+
+    	C_02_Constructor obj1 =
+                new C_02_C_02_Constructor(10, 20);
+        obj1.display();
+
+        C_02_C_02_Constructor obj2 =
+                new C_02_Constructor(20.55, 20.51);
+        obj2.display();
+    }
+}

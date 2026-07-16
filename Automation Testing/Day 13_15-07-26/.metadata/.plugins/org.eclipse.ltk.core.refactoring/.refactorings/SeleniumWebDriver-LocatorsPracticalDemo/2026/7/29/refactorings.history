@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.SeleniumWebDriver.LocatorsDemo.ID_locator.java&apos; to &apos;ID_Locator.java&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumWebDriver-LocatorsPracticalDemo&apos;&#x0D;&#x0A;- Original element: &apos;com.SeleniumWebDriver.LocatorsDemo.ID_locator.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.SeleniumWebDriver.LocatorsDemo.ID_Locator.java&apos;" description="Rename compilation unit &apos;ID_locator.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.SeleniumWebDriver.LocatorsDemo{ID_locator.java" name="ID_Locator.java" references="false" stamp="1784106599635" version="1.0"/>
+</session>

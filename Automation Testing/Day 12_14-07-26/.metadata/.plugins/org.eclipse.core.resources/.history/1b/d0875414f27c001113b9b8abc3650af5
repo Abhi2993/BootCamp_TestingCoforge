@@ -1,0 +1,21 @@
+package operatorExamples;
+
+public class ArithmeticOperators {
+
+	public static void main(String[] args) {
+
+		int laptopPrice = 50000;
+		int quantity = 2;
+
+		int totalPrice = laptopPrice * quantity;
+		int gstAmount = totalPrice * 18 / 100;
+		int finalAmount = totalPrice + gstAmount;
+
+		System.out.println("Laptop Price : " + laptopPrice);
+		System.out.println("Quantity Purchased : " + quantity);
+		System.out.println("Total Price : " + totalPrice);
+		System.out.println("GST Amount : " + gstAmount);
+		System.out.println("Final Amount : " + finalAmount);
+
+	}
+}

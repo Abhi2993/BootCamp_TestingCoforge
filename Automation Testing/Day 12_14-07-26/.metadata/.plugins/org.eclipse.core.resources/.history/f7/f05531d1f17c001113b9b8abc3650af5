@@ -1,0 +1,21 @@
+package Task53AzureAssignment;
+
+package operators;
+
+public class ArithmeticOperators {
+
+	public static void main(String[] args) {
+
+		int shirtPrice = 1200;
+		int jeansPrice = 1800;
+		int quantity = 2;
+
+		int totalBill = (shirtPrice + jeansPrice) * quantity;
+		int gst = totalBill * 18 / 100;
+		int finalAmount = totalBill + gst;
+
+		System.out.println("Total Bill = " + totalBill);
+		System.out.println("GST = " + gst);
+		System.out.println("Final Amount = " + finalAmount);
+	}
+}

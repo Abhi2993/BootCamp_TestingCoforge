@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-15T23:22:26 IST" name="Default suite" finished-at="2026-07-15T23:25:15 IST" duration-ms="168476">
+    <groups>
+    </groups>
+    <test started-at="2026-07-15T23:22:26 IST" name="Default test" finished-at="2026-07-15T23:25:15 IST" duration-ms="168476">
+      <class name="SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand">
+        <test-method signature="NavigationBack2()[pri:0, instance:SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand@7c7b252e]" started-at="2026-07-15T23:22:27 IST" name="NavigationBack2" finished-at="2026-07-15T23:22:53 IST" duration-ms="26755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationBack2 -->
+        <test-method signature="NavigationBack3()[pri:0, instance:SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand@7c7b252e]" started-at="2026-07-15T23:22:53 IST" name="NavigationBack3" finished-at="2026-07-15T23:23:04 IST" duration-ms="10383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationBack3 -->
+        <test-method signature="NavigationForword2()[pri:0, instance:SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand@7c7b252e]" started-at="2026-07-15T23:23:04 IST" name="NavigationForword2" finished-at="2026-07-15T23:23:33 IST" duration-ms="29545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationForword2 -->
+        <test-method signature="NavigationForword3()[pri:0, instance:SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand@7c7b252e]" started-at="2026-07-15T23:23:33 IST" name="NavigationForword3" finished-at="2026-07-15T23:23:58 IST" duration-ms="24743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationForword3 -->
+        <test-method signature="NavigationRefresh2()[pri:0, instance:SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand@7c7b252e]" started-at="2026-07-15T23:23:58 IST" name="NavigationRefresh2" finished-at="2026-07-15T23:24:26 IST" duration-ms="28212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationRefresh2 -->
+        <test-method signature="NavigationRefresh3()[pri:0, instance:SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand@7c7b252e]" started-at="2026-07-15T23:24:26 IST" name="NavigationRefresh3" finished-at="2026-07-15T23:24:36 IST" duration-ms="9432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationRefresh3 -->
+        <test-method signature="edgeTest()[pri:0, instance:SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand@7c7b252e]" started-at="2026-07-15T23:24:36 IST" name="edgeTest" finished-at="2026-07-15T23:24:41 IST" duration-ms="5745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeTest -->
+        <test-method signature="firefoxTest()[pri:0, instance:SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand@7c7b252e]" started-at="2026-07-15T23:24:41 IST" name="firefoxTest" finished-at="2026-07-15T23:24:54 IST" duration-ms="12792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxTest -->
+        <test-method signature="chromeTest()[pri:1, instance:SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand@7c7b252e]" started-at="2026-07-15T23:24:54 IST" name="chromeTest" finished-at="2026-07-15T23:24:59 IST" duration-ms="4961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeTest -->
+        <test-method signature="NavigationBack()[pri:2, instance:SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand@7c7b252e]" started-at="2026-07-15T23:24:59 IST" name="NavigationBack" finished-at="2026-07-15T23:25:04 IST" duration-ms="5079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationBack -->
+        <test-method signature="NavigationForword()[pri:3, instance:SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand@7c7b252e]" started-at="2026-07-15T23:25:04 IST" name="NavigationForword" finished-at="2026-07-15T23:25:10 IST" duration-ms="5445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationForword -->
+        <test-method signature="NavigationRefresh()[pri:4, instance:SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand@7c7b252e]" started-at="2026-07-15T23:25:10 IST" name="NavigationRefresh" finished-at="2026-07-15T23:25:15 IST" duration-ms="5083" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Remote browser did not respond to getCurrentUrl
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Remote browser did not respond to getCurrentUrl
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:355)
+at SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand.NavigationRefresh(AllNavigationCommand.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationRefresh -->
+      </class> <!-- SeleniumWebBrowser_AllnavigationCommand.AllNavigationCommand -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+package WebDriver.Commands;
+
+public class BrowserCommands {
+
+}

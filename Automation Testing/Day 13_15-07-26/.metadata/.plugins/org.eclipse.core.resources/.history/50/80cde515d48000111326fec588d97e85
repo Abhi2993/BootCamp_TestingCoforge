@@ -1,0 +1,5 @@
+package com.SeleniumWebDriver.LocatorsDemo;
+
+public class Tag_NameLocator {
+
+}

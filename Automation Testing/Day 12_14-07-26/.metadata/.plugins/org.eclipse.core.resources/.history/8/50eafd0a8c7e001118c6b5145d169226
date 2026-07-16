@@ -1,0 +1,7 @@
+//Create program for generating Fabinocci series and Palindrome
+
+package PracticeQuestions;
+
+public class FabinoccPalindrome {
+
+}

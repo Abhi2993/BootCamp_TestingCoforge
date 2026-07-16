@@ -1,0 +1,13 @@
+package com.SeleniumWebDriver.CromeBrowserTest;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CromeBrowser {
+
+	public static void main(String[] args) {
+	  ChromeDriver driver  = new ChromeDriver();
+	  driver.get("https://chatgpt.com/c/6a55cbcb-ed48-83ee-94f5-adffe8dd4d8a");
+
+	}
+
+}

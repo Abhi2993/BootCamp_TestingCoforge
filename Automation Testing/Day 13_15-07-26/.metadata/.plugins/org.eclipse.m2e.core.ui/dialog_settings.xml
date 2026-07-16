@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Coforge_Automataion testing Selenium\CromeBrowserTest\src"/>
+			<item value="D:\Coforge_Automataion testing Selenium\Selenium_WebDriver_LaunchCromeBrowser\src\Selenium_webBrowser_Launchbrowser"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="Selenium_Alert"/>
+			<item value="SeleniumWebBrowser_AllnavigationCommand"/>
+			<item value="SeleniumWebDriver-LocatorsPracticalDemo"/>
+			<item value="WebDriver_NavigateCommands"/>
+			<item value="Selenium_webDriverBrowserCommands"/>
+			<item value="Selenium_WebDriver_BrowserLaunch"/>
+		</list>
+		<list key="name">
+			<item value="Abhinandan "/>
+			<item value="Abhinandan prasad"/>
+			<item value="abhinandan"/>
+			<item value="Abhinandan"/>
+		</list>
+		<list key="artifactId">
+			<item value="Selenium_Alert"/>
+			<item value="SeleniumWebBrowser_AllnavigationCommand"/>
+			<item value="SeleniumWebDriver-LocatorsPracticalDemo"/>
+			<item value="SeleniumWebDriver_NavigationCommands"/>
+			<item value="BrowserCommands"/>
+			<item value="CromeBrowserTest"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

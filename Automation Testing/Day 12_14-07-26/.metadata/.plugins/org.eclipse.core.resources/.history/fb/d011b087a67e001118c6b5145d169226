@@ -1,0 +1,26 @@
+package exceptionhandlingdemo;
+
+public class Try_Catch {
+
+    int x = 10;
+
+    public void m1() {
+        System.out.println("Value of x is : " + x);
+    }
+
+    public static void main(String[] args) {
+
+        Try_Catch obj = new Try_Catch();
+        obj.m1();
+
+        try {
+            Thread.sleep(1000);   // Pause for 1 second
+            System.out.println("Program resumed after 1 second.");
+        } catch (InterruptedException e) {
+            System.out.println("Exception Handled");
+            e.printStackTrace();
+        }
+
+        System.out.println("Program End");
+    }
+}

@@ -1,0 +1,29 @@
+// Write Java Program to Find Reverse string
+
+
+package PracticeQuestions;
+
+import java.util.Scanner;
+
+public class Reversestring {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a String: ");
+        String str = sc.nextLine();
+
+        String reverse = "";
+
+        // Reverse the string
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reverse = reverse + str.charAt(i);
+        }
+
+        System.out.println("Original String: " + str);
+        System.out.println("Reversed String: " + reverse);
+
+        sc.close();
+    }
+}

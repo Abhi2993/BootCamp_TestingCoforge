@@ -1,0 +1,34 @@
+package Selenium_Alert;
+
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import Utility.Helper;
+
+public class Simple_Alert {
+
+    @Test
+    public void TestPopups() throws Exception {
+
+        WebDriver driver = Helper.startBrowser("Edge");
+        driver.get("https://the-internet.herokuapp.com/javascript_alerts");
+
+        
+        driver.findElement(By.xpath("//button[contains(text(),'Click for JS Alert')]")).click();
+
+        Alert alert = driver.switchTo().alert();
+        Thread.sleep(8000);
+        alert.accept();
+
+        String result = driver.findElement(By.cssSelector("#result")).getText();
+        System.out.println(result);
+        Assert.assertEquals("You successfully clicked an alert", result);
+
+        
+        
+    }
+}

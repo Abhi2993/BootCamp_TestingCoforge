@@ -1,0 +1,32 @@
+package WebDriver.Commands;
+
+import org.junit.Test;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class BrowserCommands {
+    @Test
+    public void CromeBrowserTest() {
+    	ChromeDriver driver = new ChromeDriver();
+    	driver.get("https://practicetestautomation.com/practice-test-login/");
+    	driver.manage().window().maximize();
+    	
+    	String BrowserTitle = driver.getTitle();
+    	System.out.println(BrowserTitle);
+    	
+    	String BrowserURL = driver.getCurrentUrl();
+    	System.out.println(BrowserURL);
+    
+    	
+    	
+    }
+    
+    public void FirefoxBrowserTest() {
+    	FirefoxDriver driver = new FirefoxDriver();
+    	driver.get("https://practicetestautomation.com/practice-test-login/");
+    	
+    	String BrowserURL = driver.getCurrentUrl();
+    	System.out.println(BrowserURL);
+    	
+    }
+}

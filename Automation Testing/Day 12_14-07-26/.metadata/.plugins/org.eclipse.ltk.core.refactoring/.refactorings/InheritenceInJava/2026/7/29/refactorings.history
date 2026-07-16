@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;InheritenceDemo.BankingSystem&apos; to &apos;BankingAppication&apos;&#x0D;&#x0A;- Original project: &apos;InheritenceInJava&apos;&#x0D;&#x0A;- Original element: &apos;InheritenceDemo.BankingSystem&apos;&#x0D;&#x0A;- Renamed element: &apos;InheritenceDemo.BankingAppication&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BankingSystem&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;InheritenceDemo{BankingSystem.java[BankingSystem" matchStrategy="1" name="BankingAppication" qualified="false" references="true" similarDeclarations="false" stamp="1783917594053" textual="false" version="1.0"/>
+</session>
