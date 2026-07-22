@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.AllureReport.class_Locator"/>
+      <class name="com.AllureReport.ID_Locator"/>
+      <class name="com.AllureReport.Tag_NameLocator"/>
+      <class name="com.AllureReport.AlertExample"/>
+      <class name="com.AllureReport.Multiple_Frame"/>
+      <class name="com.AllureReport.RadioButton_Example2"/>
+      <class name="com.AllureReport.Partial_LinkLocator"/>
+      <class name="com.AllureReport.CaseStudy_EasyCalculation"/>
+      <class name="com.AllureReport.ScrollUp_Down"/>
+      <class name="com.AllureReport.MouseOverMoment"/>
+      <class name="com.AllureReport.SpiceJet_RadioButton"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
